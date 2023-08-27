@@ -1,0 +1,171 @@
+/* Define a custom font */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/* Apply the font to <p> tags */
+p {
+    font-family: "Open Sans", sans-serif;
+
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
+
+section {
+    display: flex;
+    align-items: center;
+}
+
+.main_container {
+    /* margin-top: 23px; */
+    background-color: #3bb19b;
+    padding: 14px;
+}
+
+.radio_btn {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    background-color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.button_container {
+    display: flex;
+    gap: 20px;
+    /* Adjust the gap as needed */
+}
+
+.record_button {
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.record_button:hover {
+    background-color: #d32f2f;
+}
+
+.record_button:active {
+    background-color: #b71c1c;
+}
+
+
+
+/* Button base styles */
+.share_button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.share_button:hover {
+    background-color: #0056b3;
+}
+
+/* Icon styles (adjust as needed) */
+.share_icon {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* Text styles (adjust as needed) */
+.share_text {
+    vertical-align: middle;
+}
+
+/* Center the button if needed */
+.button_container {
+    text-align: center;
+}
+
+
+.checkbox_btn {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.pause_button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 12px;
+}
+
+.pause_button:hover {
+    background-color: #d32f2f;
+}
+
+.pause_button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(244, 67, 54, 0.3);
+}
+
+.resume_button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 12px;
+}
+
+.resume_button:hover {
+    background-color: #2980b9;
+}
+
+/* Style the stop recording button */
+.stop_recording_button {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.stop_recording_button:hover {
+    background-color: #cc0000;
+}
+
+/* Style the video container */
+.video_container {
+    max-width: 100%;
+    width: 400px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the video element */
+video {
+    width: 100%;
+    height: 100%;
+}
+
